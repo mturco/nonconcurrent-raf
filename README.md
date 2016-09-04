@@ -1,6 +1,6 @@
 # Nonconcurrent requestAnimationFrame
 
-Runs callback on every animation frame unless a previous call hasn't finished yet. Useful for things situations where you're doing rendering or layout on mouse events or window resize/scroll events.
+Runs the given callback on every animation frame unless a previous call hasn't finished yet. Useful for situations where you're doing rendering or layout on mouse events or window resize/scroll events.
 
 ## Usage
 ```javascript
