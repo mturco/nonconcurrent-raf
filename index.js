@@ -15,14 +15,16 @@ function callQueued() {
 
 callQueued();
 
-export function queue(cb, id) {
+function queue(cb, id) {
   if (typeof cb === 'function') {
     queued[id] = cb;
   }
 }
 
-export function cancel(id) {
+function cancel(id) {
   if (queued[id]) {
     queued[id] = null;
   }
 }
+
+export default { queue, cancel };
