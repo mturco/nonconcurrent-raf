@@ -1,0 +1,13 @@
+{
+  "name": "nonconcurrent-raf",
+  "version": "1.0.0",
+  "description": "Runs the given callback on every animation frame unless a previous call hasn't finished yet",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mturco/nonconcurrent-raf"
+  },
+  "keywords": [],
+  "author": "Matt Turco <matt.turco@gmail.com>",
+  "license": "ISC"
+}

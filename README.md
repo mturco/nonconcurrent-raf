@@ -21,7 +21,7 @@ nonconcurrentRAF.cancel(callback, id);
 ## Example
 
 ```javascript
-import nonconcurrentRAF from './nonconcurrent-raf';
+import nonconcurrentRAF from 'nonconcurrent-raf';
 
 window.addEventListener('resize', () => {
   nonconcurrentRAF.queue(render, 'render');
